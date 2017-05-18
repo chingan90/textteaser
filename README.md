@@ -1,15 +1,13 @@
 TextTeaser
 =============
 
-TextTeaser is an automatic summarization algorithm.
+TextTeaser is an automatic summarization algorithm. 
 
-This is now the official version of TextTeaser. Future developments of TextTeaser will be in this repository.
-
-The original Scala TextTeaser can still be accessed [here](https://github.com/MojoJolo/textteaser).
+This fork adds Python 3.x support while implementing additional functions.
 
 ### Installation
 
-    >>> git clone https://github.com/DataTeaser/textteaser.git
+    >>> git clone https://github.com/chingan90/textteaser.git
     >>> pip install -r textteaser/requirements.txt
 
 ### How to Use
@@ -19,7 +17,3 @@ The original Scala TextTeaser can still be accessed [here](https://github.com/Mo
     >>> tt.summarize(title, text)
 
 You can also test TextTeaser by running `python test.py`.
-
-### Commercial Support
-
-Commercial support for TextTeaser or custom summarizers can be provided by [DataTeaser](http://www.datateaser.com/?textteaser).
